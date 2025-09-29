@@ -1,0 +1,11 @@
+[2J[m[2;1H> portfoliocode-web@0.1.0 dev C:\CODE\portfoliocode\apps\web
+> next dev --turbopack[5;1H]0;C:\Windows\system32\cmd.exe[?25h[25l [1m[93m⚠[m Warning: Next.js inferred your workspace root, but it may not be correct.[56X
+ We detected multiple lockfiles and selected the directory of C:\CODE\portfoliocode\pnpm-lock.yaml as the root directory.[11X
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.[15X
+ Detected additional lockfiles: [100X
+   * C:\CODE\portfoliocode\apps\web\pnpm-lock.yaml[82X[12;1H[?25h]0;next-server (v15.5.4)   [1m[38;2;173;127;168m▲ Next.js 15.5.4[m (Turbopack)
+   - Local:        http://localhost:3000  
+   - Network:      http://172.20.80.1:3000
+[42X
+ [1m[92m✓[m Starting...[28X
