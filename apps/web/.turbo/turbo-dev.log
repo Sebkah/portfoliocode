@@ -1,11 +1,1687 @@
-[2J[m[2;1H> portfoliocode-web@0.1.0 dev C:\CODE\portfoliocode\apps\web
-> next dev --turbopack[5;1H]0;C:\Windows\system32\cmd.exe[?25h[25l [1m[93m⚠[m Warning: Next.js inferred your workspace root, but it may not be correct.[56X
- We detected multiple lockfiles and selected the directory of C:\CODE\portfoliocode\pnpm-lock.yaml as the root directory.[11X
- To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
-   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.[15X
- Detected additional lockfiles: [100X
-   * C:\CODE\portfoliocode\apps\web\pnpm-lock.yaml[82X[12;1H[?25h]0;next-server (v15.5.4)   [1m[38;2;173;127;168m▲ Next.js 15.5.4[m (Turbopack)
-   - Local:        http://localhost:3000  
-   - Network:      http://172.20.80.1:3000
-[42X
- [1m[92m✓[m Starting...[28X
+[?9001h[?1004h[?25l[2J[m[2;1H> code@0.1.0 dev C:\CODE\portfoliocode\apps\web
+> next dev --turbopack[5;1H]0;C:\WINDOWS\system32\cmd.exe[?25h]0;next-server (v15.5.4)   [38;2;173;127;168m[1m▲ Next.js 15.5.4[m (Turbopack)
+[?25l   - Local:        http://localhost:3000
+   - Network:      http://192.168.1.248:3000[9;1H [32m[1m✓[m Starting...
+[?25h [32m[1m✓[m Ready in 740ms
+ [37m[1m○[m Compiling / ...
+ [32m[1m✓[m Compiled / in 2.4s
+[?25l [31m[1m⨯[m ./apps/web/app/components/3DBackgound/ThreeBackground.tsx:45:1[31m[1m
+Module not found[m: Can't resolve [32m'../../utils/three/CameraHelpers'[m
+  [90m43 | [36mimport [m{ [33mRoom [m} [36mfrom [32m"../Room/Room"[33m;[m
+  [90m44 | [36mimport [m{ [33mForwardRefComponent [m} [36mfrom [32m"framer-motion"[33m;[31m[1m
+>[90m[22m 45 | [36mimport [m{ [33mSimpleCameraControls [m} [36mfrom [32m"../../utils/three/CameraHelpers"[33m;[m
+     [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m
+  [90m46 | [36mimport [m{ is } [36mfrom [32m"@react-three/fiber/dist/declarations/src/core/utils"[33m;[m
+  [90m47 |[m
+  [90m48 | // Camera movement constants[m[25;1HImport trace:[?25h
+  Server Component:
+    ./apps/web/app/components/3DBackgound/ThreeBackground.tsx
+    ./apps/web/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./apps/web/app/components/3DBackgound/ThreeBackground.tsx:43:1
+[31m[1mModule not found[m: Can't resolve [32m'../Room/Room'[K[m
+  [90m41 | [36mimport [m{ [33mNav [m} [36mfrom [32m"./Navigation"[33m;[K[m
+  [90m42 | [36mimport [m{ usePathname } [36mfrom [32m"next/navigation"[33m;[K[m
+[31m[1m>[90m[22m 43 | [36mimport [m{ [33mRoom [m} [36mfrom [32m"../Room/Room"[33m;[K[m
+     [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m44 | [36mimport [m{ [33mForwardRefComponent [m} [36mfrom [32m"framer-motion"[33m;[K[m
+  [90m45 | [36mimport [m{ [33mSimpleCameraControls [m} [36mfrom [32m"../../utils/three/CameraHelpers"[33m;[K[m
+  [90m46 | [36mimport [m{ is } [36mfrom [32m"@react-three/fiber/dist/declarations/src/core/utils"[33m;[K[m
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/app/components/3DBackgound/ThreeBackground.tsx
+    ./apps/web/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [37m[1m○[m Compiling /_error ...
+ [32m[1m✓[m Compiled /_error in 633ms
+ GET / [31m500 [min 3120ms
+ [31m[1m⨯[m ./apps/web/app/components/3DBackgound/ThreeBackground.tsx:45:1
+[31m[1mModule not found[m: Can't resolve [32m'../../utils/three/CameraHelpers'[K[m
+  [90m43 | [36mimport [m{ [33mRoom [m} [36mfrom [32m"../Room/Room"[33m;[K[m
+  [90m44 | [36mimport [m{ [33mForwardRefComponent [m} [36mfrom [32m"framer-motion"[33m;[K[m
+[31m[1m>[90m[22m 45 | [36mimport [m{ [33mSimpleCameraControls [m} [36mfrom [32m"../../utils/three/CameraHelpers"[33m;[K[m
+     [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m46 | [36mimport [m{ is } [36mfrom [32m"@react-three/fiber/dist/declarations/src/core/utils"[33m;[K[m
+  [90m47 |[K[m
+  [90m48 | // Camera movement constants[K[m
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/app/components/3DBackgound/ThreeBackground.tsx
+    ./apps/web/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./apps/web/app/components/3DBackgound/ThreeBackground.tsx:43:1
+[31m[1mModule not found[m: Can't resolve [32m'../Room/Room'[K[m
+  [90m41 | [36mimport [m{ [33mNav [m} [36mfrom [32m"./Navigation"[33m;[K[m
+  [90m42 | [36mimport [m{ usePathname } [36mfrom [32m"next/navigation"[33m;[K[m
+[31m[1m>[90m[22m 43 | [36mimport [m{ [33mRoom [m} [36mfrom [32m"../Room/Room"[33m;[K[m
+     [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m44 | [36mimport [m{ [33mForwardRefComponent [m} [36mfrom [32m"framer-motion"[33m;[K[m
+  [90m45 | [36mimport [m{ [33mSimpleCameraControls [m} [36mfrom [32m"../../utils/three/CameraHelpers"[33m;[K[m
+  [90m46 | [36mimport [m{ is } [36mfrom [32m"@react-three/fiber/dist/declarations/src/core/utils"[33m;[K[m
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/app/components/3DBackgound/ThreeBackground.tsx
+    ./apps/web/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ GET / [31m500 [min 48ms
+ [31m[1m⨯[m ./apps/web/app/components/3DBackgound/ThreeBackground.tsx:43:1
+[31m[1mModule not found[m: Can't resolve [32m'../Room/Room'[K[m
+  [90m41 | [36mimport [m{ [33mNav [m} [36mfrom [32m"./Navigation"[33m;[K[m
+  [90m42 | [36mimport [m{ usePathname } [36mfrom [32m"next/navigation"[33m;[K[m
+[31m[1m>[90m[22m 43 | [36mimport [m{ [33mRoom [m} [36mfrom [32m"../Room/Room"[33m;[K[m
+     [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m44 |[K[m
+  [90m45 |[K[m
+  [90m46 | [36mimport [m{ is } [36mfrom [32m"@react-three/fiber/dist/declarations/src/core/utils"[33m;[K[m
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/app/components/3DBackgound/ThreeBackground.tsx
+    ./apps/web/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/components/3DBackgound/ThreeBackground.tsx:43:1
+[31m[1mModule not found[m: Can't resolve [32m'../Room/Room'[K[m
+  [90m41 | [36mimport [m{ [33mNav [m} [36mfrom [32m"./Navigation"[33m;[K[m
+  [90m42 | [36mimport [m{ usePathname } [36mfrom [32m"next/navigation"[33m;[K[m
+[31m[1m>[90m[22m 43 | [36mimport [m{ [33mRoom [m} [36mfrom [32m"../Room/Room"[33m;[K[m
+     [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m44 |[K[m
+  [90m45 |[K[m
+  [90m46 | [36mimport [m{ is } [36mfrom [32m"@react-three/fiber/dist/declarations/src/core/utils"[33m;[K[m
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/app/components/3DBackgound/ThreeBackground.tsx
+    ./apps/web/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/components/3DBackgound/ThreeBackground.tsx:43:1[K
+[31m[1mModule not found[m: Can't resolve [32m'../Room/Room'[K[m
+  [90m41 | [36mimport [m{ [33mNav [m} [36mfrom [32m"./Navigation"[33m;[K[m
+  [90m42 | [36mimport [m{ usePathname } [36mfrom [32m"next/navigation"[33m;[K[m
+[31m[1m>[90m[22m 43 | [36mimport [m{ [33mRoom [m} [36mfrom [32m"../Room/Room"[33m;[K[m
+     [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m44 |[K[m
+  [90m45 |[K[m
+  [90m46 | [36mimport [m{ is } [36mfrom [32m"@react-three/fiber/dist/declarations/src/core/utils"[33m;[K[m
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/app/components/3DBackgound/ThreeBackground.tsx
+    ./apps/web/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [31m[1m⨯[m ./apps/web/app/components/3DBackgound/ThreeBackground.tsx:43:1[K
+[31m[1mModule not found[m: Can't resolve [32m'../Room/Room'[K[m
+  [90m41 | [36mimport [m{ [33mNav [m} [36mfrom [32m"./Navigation"[33m;[K[m
+  [90m42 | [36mimport [m{ usePathname } [36mfrom [32m"next/navigation"[33m;[K[m
+[31m[1m>[90m[22m 43 | [36mimport [m{ [33mRoom [m} [36mfrom [32m"../Room/Room"[33m;[K[m
+     [90m| [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[m[K
+  [90m44 |[K[m
+  [90m45 |[K[m
+  [90m46 | [36mimport [m{ is } [36mfrom [32m"@react-three/fiber/dist/declarations/src/core/utils"[33m;[K[m
+
+
+
+Import trace:
+  Server Component:
+    ./apps/web/app/components/3DBackgound/ThreeBackground.tsx
+    ./apps/web/app/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+ [32m[1m✓[m Compiled in 36ms
+ [32m[1m✓[m Compiled / in 21ms
+ [31m[1m⨯[m ReferenceError: Room is not defined
+    at ThreeBackground (app\components\3DBackgound\ThreeBackground.tsx:209:10)
+  [90m207 |       [33m>[K[m
+  [90m208 |[9X[33m[9C<Nav [mtargetPosition[33m=[m{targetPosition} [33m/>[K[m
+[31m[1m>[90m[22m 209 |[9X[33m[9C<Room />[K[m
+      [90m|[10X[31m[1m[10C^[m[K
+  [90m210 |[9X[33m[9C<RenderScreen />[K[m
+  [90m211 |[K[m
+  [90m212 |[9X[33m[9C<DollyCamera /> [m{[K
+  digest: [32m'1924416394'[K[m
+}
+ GET / [31m500 [min 491ms
+ [33m[1m⚠[m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[m Compiled in 36ms
+ GET / [32m200 [min 155ms
+ [33m[1m⚠[m Fast Refresh had to perform a full reload due to a runtime error.
+ [32m[1m✓[m Compiled in 45ms
+ GET / [32m200 [min 149ms
+ GET / [32m200 [min 67ms
+ [32m[1m✓[m Compiled /_not-found/page in 128ms
+ GET /portfolio [33m404 [min 182ms
+ GET /portfolio [33m404 [min 57ms
+ GET / [32m200 [min 80ms
+ [32m[1m✓[m Compiled in 40ms
+ [32m[1m✓[m Compiled in 40ms
+ [32m[1m✓[m Compiled in 34ms
+ GET / [32m200 [min 288ms
+ [32m[1m✓[m Compiled in 36ms
+ [32m[1m✓[m Compiled / in 30ms
+ [31m[1m⨯[m ReferenceError: Lond is not defined
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:26:18)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__6102cb8e._.js:307:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:13:3[90m)[K[m
+  [90m24 | [m})[33m;[K[m
+  [90m25 |[K[m
+[31m[1m>[90m[22m 26 | [36mconst [mlondrina [33m= Lond[K[m
+     [90m|[18X[31m[1m[18C^[m[K
+  [90m27 |[K[m
+  [90m28 | [36mexport default function [33mHome[m() {[K
+  [90m29 |   [36mreturn [m( {[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 177ms
+ [31m[1m⨯[m ReferenceError: Lond is not defined
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:26:18)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__6102cb8e._.js:307:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:13:3[90m)[K[m
+  [90m24 | [m})[33m;[K[m
+  [90m25 |[K[m
+[31m[1m>[90m[22m 26 | [36mconst [mlondrina [33m= Lond[K[m
+     [90m|[18X[31m[1m[18C^[m[K
+  [90m27 |[K[m
+  [90m28 | [36mexport default function [33mHome[m() {[K
+  [90m29 |   [36mreturn [m( {[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 86ms
+ [32m[1m✓[m Compiled /favicon.ico in 96ms
+ GET /favicon.ico [32m200 [min 409ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 272ms
+ [32m[1m✓[m Compiled in 60ms
+ [32m[1m✓[m Compiled in 193ms
+ [32m[1m✓[m Compiled / in 21ms
+ GET / [32m200 [min 56ms
+ GET / [32m200 [min 68ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 114ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 100ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 105ms
+ [32m[1m✓[m Compiled / in 27ms
+ [31m[1m⨯[m ReferenceError: PAtta is not defined
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:32:18)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__6102cb8e._.js:313:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:13:3[90m)[K[m
+  [90m30 | [m})[33m;[K[m
+  [90m31 |[K[m
+[31m[1m>[90m[22m 32 | [36mconst [mlondrina [33m= PAtta[m({[K
+     [90m|[18X[31m[1m[18C^[m[K
+  [90m33 |   [mvariable[33m: [32m"--font-londrina"[33m,[K[m
+  [90m34 |   [msubsets[33m: [m[[32m"latin"[m][33m,[K[m
+  [90m35 |   [mweight[33m: [32m"400"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 130ms
+ [31m[1m⨯[m ReferenceError: PAtta is not defined
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:32:18)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__6102cb8e._.js:313:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:13:3[90m)[K[m
+  [90m30 | [m})[33m;[K[m
+  [90m31 |[K[m
+[31m[1m>[90m[22m 32 | [36mconst [mlondrina [33m= PAtta[m({[K
+     [90m|[18X[31m[1m[18C^[m[K
+  [90m33 |   [mvariable[33m: [32m"--font-londrina"[33m,[K[m
+  [90m34 |   [msubsets[33m: [m[[32m"latin"[m][33m,[K[m
+  [90m35 |   [mweight[33m: [32m"400"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 91ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 289ms
+ [32m[1m✓[m Compiled in 56ms
+ [32m[1m✓[m Compiled / in 47ms
+ GET / [32m200 [min 132ms
+ GET / [32m200 [min 240ms
+ [32m[1m✓[m Compiled / in 69ms
+ GET / [32m200 [min 163ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 108ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 103ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 110ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 112ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 103ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 107ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 117ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 110ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 108ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 110ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 107ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 104ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 101ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 109ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 103ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 131ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 106ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 110ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 107ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 104ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 103ms
+ [32m[1m✓[m Compiled in 35ms
+ [32m[1m✓[m Compiled in 35ms
+ [32m[1m✓[m Compiled in 25ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 105ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 107ms
+ [32m[1m✓[m Compiled in 33ms
+ [32m[1m✓[m Compiled in 36ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 116ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 107ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 101ms
+ [32m[1m✓[m Compiled in 33ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 128ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 114ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 108ms
+ [32m[1m✓[m Compiled in 43ms
+ [32m[1m✓[m Compiled in 35ms
+ [32m[1m✓[m Compiled in 37ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 104ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 104ms
+ [32m[1m✓[m Compiled in 27ms
+ [32m[1m✓[m Compiled / in 26ms
+ [31m[1m⨯[m ReferenceError: children is not defined
+    at TechnologyTag (app\components\tags\TechnologyTag.tsx:5:8)
+  [90m3 |   [36mreturn [m([K
+  [90m4 |     [33m<span [mclassName[33m=[32m"px-2 py-1 border border-white rounded-full text-sm"[33m>[K[m
+[31m[1m>[90m[22m 5 |       [m{children}[K
+    [90m|        [31m[1m^[m[K
+  [90m6 |     [33m</span>[K[m
+  [90m7 |   [m)[33m;[K[m
+  [90m8 | [m}[33m; [m{[K
+  digest: [32m'1624242824'[K[m
+}
+ GET / [32m200 [min 134ms
+ [32m[1m✓[m Compiled / in 26ms
+ [31m[1m⨯[m ReferenceError: children is not defined
+    at TechnologyTag (app\components\tags\TechnologyTag.tsx:6:8)
+  [90m4 |   [36mreturn [m([K
+  [90m5 |     [33m<span [mclassName[33m=[32m"px-2 py-1 border border-white rounded-full text-sm"[33m>[K[m
+[31m[1m>[90m[22m 6 |       [m{children}[K
+    [90m|        [31m[1m^[m[K
+  [90m7 |     [33m</span>[K[m
+  [90m8 |   [m)[33m;[K[m
+  [90m9 | [m}[33m; [m{[K
+  digest: [32m'1624242824'[K[m
+}
+ GET / [31m500 [min 293ms
+ [32m[1m✓[m Compiled / in 25ms
+ [31m[1m⨯[m ReferenceError: children is not defined
+    at TechnologyTag (app\components\tags\TechnologyTag.tsx:6:8)
+  [90m4 |   [36mreturn [m([K
+  [90m5 |     [33m<span [mclassName[33m=[32m"px-2 py-1 border border-white rounded-full text-sm"[33m>[K[m
+[31m[1m>[90m[22m 6 |       [m{children}[K
+    [90m|        [31m[1m^[m[K
+  [90m7 |     [33m</span>[K[m
+  [90m8 |   [m)[33m;[K[m
+  [90m9 | [m}[33m; [m{[K
+  digest: [32m'1624242824'[K[m
+}
+ GET / [31m500 [min 275ms
+ [32m[1m✓[m Compiled / in 29ms
+ [31m[1m⨯[m ReferenceError: children is not defined
+    at TechnologyTag (app\components\tags\TechnologyTag.tsx:4:8)
+  [90m2 |   [36mreturn [m([K
+  [90m3 |     [33m<span [mclassName[33m=[32m"px-2 py-1 border border-white rounded-full text-sm"[33m>[K[m
+[31m[1m>[90m[22m 4 |       [m{children}[K
+    [90m|        [31m[1m^[m[K
+  [90m5 |     [33m</span>[K[m
+  [90m6 |   [m)[33m;[K[m
+  [90m7 | [m}[33m; [m{[K
+  digest: [32m'1624242824'[K[m
+}
+ GET / [31m500 [min 274ms
+ [32m[1m✓[m Compiled in 29ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 299ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 97ms
+ [32m[1m✓[m Compiled / in 24ms
+ [31m[1m⨯[m ReferenceError: Next is not defined
+    at NextTag (app\components\tags\TechnologyTag.tsx:11:25)
+   [90m9 | [36mexport const [33mNextTag = [m() [33m=> [m{[K
+  [90m10 |   [36mreturn [m([K
+[31m[1m>[90m[22m 11 |     [33m<TechnologyTag [mtag[33m=[m{[33mNext[m}[33m>[K[m
+     [90m|[25X[31m[1m[25C^[m[K
+  [90m12 |       [33m<span [mclassName[33m=[32m"text-white"[33m>Next.[mjs[33m</span>[K[m
+  [90m13 |     [33m</TechnologyTag>[K[m
+  [90m14 |   [m)[33m; [m{[K
+  digest: [32m'792409865'[K[m
+}
+ GET / [32m200 [min 99ms
+ [32m[1m✓[m Compiled / in 28ms
+ [31m[1m⨯[m ReferenceError: S is not defined
+    at NextTag (app\components\tags\TechnologyTag.tsx:11:25)
+   [90m9 | [36mexport const [33mNextTag = [m() [33m=> [m{[K
+  [90m10 |   [36mreturn [m([K
+[31m[1m>[90m[22m 11 |     [33m<TechnologyTag [mtag[33m=[m{[33mS[m}[33m>[K[m
+     [90m|[25X[31m[1m[25C^[m[K
+  [90m12 |       [33m<span [mclassName[33m=[32m"text-white"[33m>Next.[mjs[33m</span>[K[m
+  [90m13 |     [33m</TechnologyTag>[K[m
+  [90m14 |   [m)[33m; [m{[K
+  digest: [32m'3958056777'[K[m
+}
+ GET / [31m500 [min 282ms
+ [32m[1m✓[m Compiled / in 25ms
+ [31m[1m⨯[m ReferenceError: Si is not defined
+    at NextTag (app\components\tags\TechnologyTag.tsx:11:25)
+   [90m9 | [36mexport const [33mNextTag = [m() [33m=> [m{[K
+  [90m10 |   [36mreturn [m([K
+[31m[1m>[90m[22m 11 |     [33m<TechnologyTag [mtag[33m=[m{[33mSi[m}[33m>[K[m
+     [90m|[25X[31m[1m[25C^[m[K
+  [90m12 |       [33m<span [mclassName[33m=[32m"text-white"[33m>Next.[mjs[33m</span>[K[m
+  [90m13 |     [33m</TechnologyTag>[K[m
+  [90m14 |   [m)[33m; [m{[K
+  digest: [32m'408121257'[K[m
+}
+ GET / [31m500 [min 297ms
+ [32m[1m✓[m Compiled / in 27ms
+ [31m[1m⨯[m ReferenceError: SiNext is not defined
+    at NextTag (app\components\tags\TechnologyTag.tsx:11:25)
+   [90m9 | [36mexport const [33mNextTag = [m() [33m=> [m{[K
+  [90m10 |   [36mreturn [m([K
+[31m[1m>[90m[22m 11 |     [33m<TechnologyTag [mtag[33m=[m{[33mSiNext[m}[33m>[K[m
+     [90m|[25X[31m[1m[25C^[m[K
+  [90m12 |       [33m<span [mclassName[33m=[32m"text-white"[33m>Next.[mjs[33m</span>[K[m
+  [90m13 |     [33m</TechnologyTag>[K[m
+  [90m14 |   [m)[33m; [m{[K
+  digest: [32m'466077193'[K[m
+}
+ GET / [31m500 [min 283ms
+ [32m[1m✓[m Compiled / in 28ms
+ [31m[1m⨯[m ReferenceError: SiNextJ is not defined
+    at NextTag (app\components\tags\TechnologyTag.tsx:11:25)
+   [90m9 | [36mexport const [33mNextTag = [m() [33m=> [m{[K
+  [90m10 |   [36mreturn [m([K
+[31m[1m>[90m[22m 11 |     [33m<TechnologyTag [mtag[33m=[m{[33mSiNextJ[m}[33m>[K[m
+     [90m|[25X[31m[1m[25C^[m[K
+  [90m12 |       [33m<span [mclassName[33m=[32m"text-white"[33m>Next.[mjs[33m</span>[K[m
+  [90m13 |     [33m</TechnologyTag>[K[m
+  [90m14 |   [m)[33m; [m{[K
+  digest: [32m'1755647945'[K[m
+}
+ GET / [31m500 [min 297ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 294ms
+ [32m[1m✓[m Compiled / in 27ms
+Only plain objects can be passed to Client Components from Server Components. Classes or other objects with methods are not supported.
+  <span>{{$$typeof: ..., render: ...}}{...}</span>
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ [31m[1m⨯[m Error: Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.
+  {$$typeof: ..., render: function SiNextdotjs2}
+                          ^^^^^^^^^^^^^^^^^^^^^
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>) {
+  digest: [32m'3473312862'[K[m
+}
+ GET / [32m200 [min 245ms
+ [32m[1m✓[m Compiled in 29ms
+ [32m[1m✓[m Compiled / in 37ms
+ GET / [32m200 [min 304ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 118ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 99ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 103ms
+ [32m[1m✓[m Compiled / in 22ms
+ GET / [32m200 [min 98ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 102ms
+ [32m[1m✓[m Compiled in 31ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 92ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 102ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 115ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 101ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 116ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 99ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 98ms
+ [32m[1m✓[m Compiled in 30ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 101ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 100ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 109ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 114ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 107ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 106ms
+ [32m[1m✓[m Compiled / in 26ms
+ [31m[1m⨯[m Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__dfd994db._.js from runtime for chunk server/app/page.js
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m) [m{[K
+  page: [32m'/'[m,[K
+  [cause]: SyntaxError: Missing initializer in const declaration
+      at <unknown> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__dfd994db._.js:236[90m)[K[m
+      at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m)[K[m
+}
+ GET / [31m500 [min 136ms
+ [31m[1m⨯[m Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__dfd994db._.js from runtime for chunk server/app/page.js
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m) [m{[K
+  page: [32m'/'[m,[K
+  [cause]: SyntaxError: Missing initializer in const declaration
+      at <unknown> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__dfd994db._.js:236[90m)[K[m
+      at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m)[K[m
+}
+ GET / [31m500 [min 95ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 305ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 108ms
+ [32m[1m✓[m Compiled in 35ms
+ [32m[1m✓[m Compiled in 34ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 104ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 101ms
+ [32m[1m✓[m Compiled in 34ms
+ [32m[1m✓[m Compiled / in 23ms
+ [31m[1m⨯[m ReferenceError: ThreeTag is not defined
+    at Home (app\page.tsx:70:14)
+  [90m68 |[11X[m[11Ctags[33m=[m{[K
+  [90m69 |[13X[33m[13C<>[K[m
+[31m[1m>[90m[22m 70 |[13X[33m[13C<ThreeTag />[K[m
+     [90m|[14X[31m[1m[14C^[m[K
+  [90m71 |[15X[33m[15C<NextTag />[K[m
+  [90m72 |[13X[33m[13C</>[K[m
+  [90m73 |[11X[m[11C} {[K
+  digest: [32m'1897233303'[K[m
+}
+ GET / [32m200 [min 99ms
+ [32m[1m✓[m Compiled / in 28ms
+ [31m[1m⨯[m ReferenceError: ThreeTag is not defined
+    at Home (app\page.tsx:70:14)
+  [90m68 |[11X[m[11Ctags[33m=[m{[K
+  [90m69 |[13X[33m[13C<>[K[m
+[31m[1m>[90m[22m 70 |[13X[33m[13C<ThreeTag />[K[m
+     [90m|[14X[31m[1m[14C^[m[K
+  [90m71 |[15X[33m[15C<NextTag />[K[m
+  [90m72 |[13X[33m[13C</>[K[m
+  [90m73 |[11X[m[11C} {[K
+  digest: [32m'1897233303'[K[m
+}
+ GET / [31m500 [min 171ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 300ms
+ [32m[1m✓[m Compiled in 32ms
+ [32m[1m✓[m Compiled / in 43ms
+ GET / [32m200 [min 171ms
+ [32m[1m✓[m Compiled in 34ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 119ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 113ms
+ GET / [32m200 [min 242ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 107ms
+ GET / [32m200 [min 247ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 113ms
+ [32m[1m✓[m Compiled in 33ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 103ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 112ms
+ [32m[1m✓[m Compiled in 31ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 102ms
+ GET / [32m200 [min 269ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 105ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 105ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 115ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 106ms
+ GET / [32m200 [min 251ms
+ GET / [32m200 [min 110ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 263ms
+ [32m[1m✓[m Compiled / in 42ms
+ GET / [32m200 [min 169ms
+ GET / [32m200 [min 157ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 180ms
+ GET / [32m200 [min 180ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 114ms
+ GET / [32m200 [min 120ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 131ms
+ GET / [32m200 [min 125ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 133ms
+ GET / [32m200 [min 133ms
+ [32m[1m✓[m Compiled / in 29ms
+ [31m[1m⨯[m Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__dfd994db._.js from runtime for chunk server/app/page.js
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m) [m{[K
+  page: [32m'/'[m,[K
+  [cause]: SyntaxError: Unexpected token ';'
+      at <unknown> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__dfd994db._.js:295[90m)[K[m
+      at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m)[K[m
+}
+ [31m[1m⨯[m Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__dfd994db._.js from runtime for chunk server/app/page.js
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m) [m{[K
+  page: [32m'/'[m,[K
+  [cause]: SyntaxError: Unexpected token ';'
+      at <unknown> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__dfd994db._.js:295[90m)[K[m
+      at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m)[K[m
+}
+ GET / [31m500 [min 194ms
+ GET / [31m500 [min 199ms
+ [31m[1m⨯[m Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__dfd994db._.js from runtime for chunk server/app/page.js
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m) [m{[K
+  page: [32m'/'[m,[K
+  [cause]: SyntaxError: Unexpected token ';'
+      at <unknown> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__dfd994db._.js:295[90m)[K[m
+      at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m)[K[m
+}
+ [31m[1m⨯[m Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__dfd994db._.js from runtime for chunk server/app/page.js
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m) [m{[K
+  page: [32m'/'[m,[K
+  [cause]: SyntaxError: Unexpected token ';'
+      at <unknown> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__dfd994db._.js:295[90m)[K[m
+      at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m)[K[m
+}
+ GET / [31m500 [min 138ms
+ GET / [31m500 [min 156ms
+ GET /favicon.ico [32m200 [min 308ms
+ [32m[1m✓[m Compiled / in 29ms
+ [31m[1m⨯[m Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__dfd994db._.js from runtime for chunk server/app/page.js
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m) [m{[K
+  page: [32m'/'[m,[K
+  [cause]: SyntaxError: Missing initializer in const declaration
+      at <unknown> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__dfd994db._.js:297[90m)[K[m
+      at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m)[K[m
+}
+ [31m[1m⨯[m Error: Failed to load chunk server/chunks/ssr/[root-of-the-server]__dfd994db._.js from runtime for chunk server/app/page.js
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m) [m{[K
+  page: [32m'/'[m,[K
+  [cause]: SyntaxError: Missing initializer in const declaration
+      at <unknown> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__dfd994db._.js:297[90m)[K[m
+      at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:11:3[90m)[K[m
+}
+ GET / [31m500 [min 163ms
+ GET / [31m500 [min 163ms
+ GET /favicon.ico [32m200 [min 272ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 384ms
+ GET / [32m200 [min 375ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 280ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 130ms
+ GET / [32m200 [min 119ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 139ms
+ GET / [32m200 [min 139ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 131ms
+ GET / [32m200 [min 125ms
+ GET / [32m200 [min 245ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 272ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 167ms
+ GET / [32m200 [min 167ms
+ [32m[1m✓[m Compiled in 38ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 136ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 120ms
+ GET / [32m200 [min 125ms
+ GET / [32m200 [min 255ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 258ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 157ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 133ms
+ GET / [32m200 [min 132ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 140ms
+ GET / [32m200 [min 134ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 134ms
+ GET / [32m200 [min 134ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 134ms
+ GET / [32m200 [min 129ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 137ms
+ GET / [32m200 [min 136ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 130ms
+ GET / [32m200 [min 133ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 139ms
+ GET / [32m200 [min 133ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 130ms
+ GET / [32m200 [min 130ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 141ms
+ GET / [32m200 [min 140ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 144ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 152ms
+ GET / [32m200 [min 146ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 154ms
+ GET / [32m200 [min 154ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 138ms
+ GET / [32m200 [min 133ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 145ms
+ GET / [32m200 [min 146ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 147ms
+ GET / [32m200 [min 148ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 134ms
+ GET / [32m200 [min 128ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 138ms
+ [32m[1m✓[m Compiled / in 37ms
+ GET / [32m200 [min 145ms
+ GET / [32m200 [min 141ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 138ms
+ GET / [32m200 [min 139ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 139ms
+ GET / [32m200 [min 139ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 148ms
+ GET / [32m200 [min 139ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 148ms
+ GET / [32m200 [min 143ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 134ms
+ GET / [32m200 [min 128ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 133ms
+ GET / [32m200 [min 134ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 146ms
+ GET / [32m200 [min 149ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 140ms
+ GET / [32m200 [min 140ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 137ms
+ GET / [32m200 [min 136ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 130ms
+ GET / [32m200 [min 130ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 137ms
+ GET / [32m200 [min 138ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 138ms
+ GET / [32m200 [min 137ms
+ [32m[1m✓[m Compiled in 198ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 95ms
+ GET / [32m200 [min 93ms
+ GET / [32m200 [min 85ms
+ GET / [32m200 [min 103ms
+ [32m[1m✓[m Compiled in 38ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 169ms
+ GET / [32m200 [min 162ms
+ [32m[1m✓[m Compiled in 61ms
+ [32m[1m✓[m Compiled in 62ms
+ [32m[1m✓[m Compiled in 68ms
+ [32m[1m✓[m Compiled in 59ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 149ms
+ GET / [32m200 [min 152ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 147ms
+ GET / [32m200 [min 141ms
+ [32m[1m✓[m Compiled / in 37ms
+ GET / [32m200 [min 161ms
+ GET / [32m200 [min 161ms
+ GET / [32m200 [min 300ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 277ms
+ GET / [32m200 [min 107ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 279ms
+ [32m[1m✓[m Compiled in 68ms
+ [32m[1m✓[m Compiled / in 37ms
+ GET / [32m200 [min 154ms
+ GET / [32m200 [min 145ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 145ms
+ [32m[1m✓[m Compiled / in 39ms
+ GET / [32m200 [min 148ms
+ GET / [32m200 [min 148ms
+ [32m[1m✓[m Compiled in 51ms
+ [32m[1m✓[m Compiled in 52ms
+ [32m[1m✓[m Compiled in 54ms
+ [32m[1m✓[m Compiled in 58ms
+ [32m[1m✓[m Compiled in 42ms
+ GET / [32m200 [min 262ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 270ms
+ [32m[1m✓[m Compiled in 60ms
+ [32m[1m✓[m Compiled in 57ms
+ [32m[1m✓[m Compiled in 51ms
+ [32m[1m✓[m Compiled in 54ms
+ [32m[1m✓[m Compiled in 52ms
+ [32m[1m✓[m Compiled in 44ms
+ [32m[1m✓[m Compiled in 57ms
+ [32m[1m✓[m Compiled in 54ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 148ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 156ms
+ GET / [32m200 [min 156ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 137ms
+ GET / [32m200 [min 132ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 158ms
+ GET / [32m200 [min 160ms
+ [32m[1m✓[m Compiled / in 39ms
+ GET / [32m200 [min 160ms
+ GET / [32m200 [min 161ms
+ [32m[1m✓[m Compiled /_not-found/page in 29ms
+ GET /videos/collectif99.mp4 [33m404 [min 84ms
+ GET /videos/collectif99.mp4 [33m404 [min 104ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 137ms
+ GET / [32m200 [min 138ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 139ms
+ GET / [32m200 [min 140ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 142ms
+ GET / [32m200 [min 142ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 137ms
+ GET / [32m200 [min 132ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 143ms
+ GET / [32m200 [min 136ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 141ms
+ GET / [32m200 [min 142ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 147ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 138ms
+ GET / [32m200 [min 139ms
+ [32m[1m✓[m Compiled / in 36ms
+ GET / [32m200 [min 152ms
+ GET / [32m200 [min 153ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 143ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 142ms
+ GET / [32m200 [min 142ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 141ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 323ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 267ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 145ms
+ GET / [32m200 [min 138ms
+ [32m[1m✓[m Compiled / in 37ms
+ GET / [32m200 [min 163ms
+ GET / [32m200 [min 161ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 149ms
+ GET / [32m200 [min 148ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 158ms
+ GET / [32m200 [min 158ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 145ms
+ GET / [32m200 [min 142ms
+ [32m[1m✓[m Compiled / in 36ms
+ GET / [32m200 [min 179ms
+ GET / [32m200 [min 179ms
+ GET / [32m200 [min 318ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 253ms
+ [32m[1m✓[m Compiled / in 38ms
+ GET / [32m200 [min 160ms
+ GET / [32m200 [min 160ms
+ GET / [32m200 [min 104ms
+ GET / [32m200 [min 105ms
+ GET / [32m200 [min 300ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 298ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 182ms
+ GET / [32m200 [min 182ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 139ms
+ GET / [32m200 [min 140ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 143ms
+ [32m[1m✓[m Compiled / in 36ms
+ GET / [32m200 [min 170ms
+ GET / [32m200 [min 170ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 156ms
+ GET / [32m200 [min 156ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 159ms
+ GET / [32m200 [min 160ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 153ms
+ GET / [32m200 [min 145ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 123ms
+ GET / [32m200 [min 67ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 145ms
+ GET / [32m200 [min 138ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 147ms
+ GET / [32m200 [min 147ms
+ [32m[1m✓[m Compiled in 42ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 164ms
+ GET / [32m200 [min 163ms
+ [32m[1m✓[m Compiled in 35ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 151ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 269ms
+ [32m[1m✓[m Compiled / in 48ms
+ GET / [32m200 [min 214ms
+ GET / [32m200 [min 216ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 179ms
+ GET / [32m200 [min 179ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 145ms
+ GET / [32m200 [min 142ms
+ [32m[1m✓[m Compiled / in 36ms
+ GET / [32m200 [min 171ms
+ GET / [32m200 [min 172ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 154ms
+ GET / [32m200 [min 146ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 186ms
+ GET / [32m200 [min 179ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 194ms
+ GET / [32m200 [min 194ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 149ms
+ GET / [32m200 [min 149ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 154ms
+ GET / [32m200 [min 146ms
+ [32m[1m✓[m Compiled / in 39ms
+ GET / [32m200 [min 175ms
+ GET / [32m200 [min 164ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 158ms
+ GET / [32m200 [min 157ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 130ms
+ GET / [32m200 [min 139ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 159ms
+ GET / [32m200 [min 160ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 149ms
+ GET / [32m200 [min 141ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 164ms
+ GET / [32m200 [min 165ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 156ms
+ GET / [32m200 [min 150ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 144ms
+ GET / [32m200 [min 138ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 164ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 282ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 253ms
+ [32m[1m✓[m Compiled / in 38ms
+ GET / [32m200 [min 171ms
+ GET / [32m200 [min 172ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 173ms
+ GET / [32m200 [min 172ms
+ [32m[1m✓[m Compiled / in 39ms
+ GET / [32m200 [min 160ms
+ GET / [32m200 [min 160ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 155ms
+ GET / [32m200 [min 151ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 165ms
+ GET / [32m200 [min 165ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 146ms
+ GET / [32m200 [min 145ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 142ms
+ GET / [32m200 [min 143ms
+ [32m[1m✓[m Compiled / in 25ms
+ GET / [32m200 [min 125ms
+ GET / [32m200 [min 64ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 152ms
+ GET / [32m200 [min 146ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 159ms
+ GET / [32m200 [min 158ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 156ms
+ GET / [32m200 [min 148ms
+ [32m[1m✓[m Compiled / in 37ms
+ GET / [32m200 [min 169ms
+ GET / [32m200 [min 169ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 167ms
+ GET / [32m200 [min 168ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 147ms
+ GET / [32m200 [min 148ms
+ [32m[1m✓[m Compiled / in 38ms
+ GET / [32m200 [min 207ms
+ GET / [32m200 [min 208ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 185ms
+ GET / [32m200 [min 185ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 147ms
+ GET / [32m200 [min 150ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 122ms
+ GET / [32m200 [min 65ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 261ms
+ GET / [32m200 [min 254ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 152ms
+ GET / [32m200 [min 152ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 152ms
+ GET / [32m200 [min 152ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 153ms
+ GET / [32m200 [min 153ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 154ms
+ GET / [32m200 [min 153ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 151ms
+ GET / [32m200 [min 151ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 150ms
+ GET / [32m200 [min 145ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 162ms
+ GET / [32m200 [min 156ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 151ms
+ GET / [32m200 [min 151ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 147ms
+ GET / [32m200 [min 147ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 182ms
+ GET / [32m200 [min 182ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 173ms
+ GET / [32m200 [min 172ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 160ms
+ GET / [32m200 [min 154ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 163ms
+ GET / [32m200 [min 164ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 151ms
+ GET / [32m200 [min 147ms
+ [32m[1m✓[m Compiled / in 23ms
+ GET / [32m200 [min 121ms
+ GET / [32m200 [min 69ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 153ms
+ GET / [32m200 [min 148ms
+ [32m[1m✓[m Compiled / in 27ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 156ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 154ms
+ GET / [32m200 [min 153ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 152ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 151ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 158ms
+ [32m[1m✓[m Compiled / in 37ms
+ GET / [32m200 [min 162ms
+ GET / [32m200 [min 162ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 169ms
+ GET / [32m200 [min 170ms
+ [32m[1m✓[m Compiled / in 37ms
+ GET / [32m200 [min 173ms
+ GET / [32m200 [min 173ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 172ms
+ GET / [32m200 [min 171ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 170ms
+ GET / [32m200 [min 163ms
+ [32m[1m✓[m Compiled / in 39ms
+ GET / [32m200 [min 163ms
+ GET / [32m200 [min 165ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 161ms
+ GET / [32m200 [min 161ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 167ms
+ GET / [32m200 [min 172ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 176ms
+ GET / [32m200 [min 176ms
+ [32m[1m✓[m Compiled / in 36ms
+ GET / [32m200 [min 173ms
+ GET / [32m200 [min 173ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 195ms
+ GET / [32m200 [min 195ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 161ms
+ GET / [32m200 [min 162ms
+ [32m[1m✓[m Compiled / in 38ms
+ GET / [32m200 [min 194ms
+ GET / [32m200 [min 187ms
+ [32m[1m✓[m Compiled / in 43ms
+ GET / [32m200 [min 178ms
+ GET / [32m200 [min 179ms
+ [32m[1m✓[m Compiled / in 41ms
+ GET / [32m200 [min 235ms
+ GET / [32m200 [min 228ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 180ms
+ GET / [32m200 [min 171ms
+ [32m[1m✓[m Compiled / in 30ms
+ GET / [32m200 [min 152ms
+ GET / [32m200 [min 154ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 156ms
+ GET / [32m200 [min 156ms
+ [32m[1m✓[m Compiled in 46ms
+ [32m[1m✓[m Compiled in 37ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 184ms
+ GET / [32m200 [min 172ms
+ [32m[1m✓[m Compiled / in 35ms
+ GET / [32m200 [min 165ms
+ GET / [32m200 [min 159ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 164ms
+ GET / [32m200 [min 158ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 169ms
+ GET / [32m200 [min 158ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 156ms
+ GET / [32m200 [min 155ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 158ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 165ms
+ GET / [32m200 [min 166ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 164ms
+ GET / [32m200 [min 164ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 163ms
+ GET / [32m200 [min 164ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 160ms
+ GET / [32m200 [min 160ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 194ms
+ GET / [32m200 [min 188ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 169ms
+ GET / [32m200 [min 171ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 161ms
+ [32m[1m✓[m Compiled / in 36ms
+ GET / [32m200 [min 171ms
+ GET / [32m200 [min 171ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 157ms
+ GET / [32m200 [min 157ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 184ms
+ GET / [32m200 [min 182ms
+ [32m[1m✓[m Compiled / in 26ms
+ GET / [32m200 [min 146ms
+ GET / [32m200 [min 79ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 189ms
+ GET / [32m200 [min 189ms
+ [32m[1m✓[m Compiled / in 31ms
+ GET / [32m200 [min 167ms
+ GET / [32m200 [min 167ms
+ [32m[1m✓[m Compiled / in 38ms
+ GET / [32m200 [min 171ms
+ GET / [32m200 [min 171ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 146ms
+ GET / [32m200 [min 72ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 188ms
+ GET / [32m200 [min 181ms
+ [32m[1m✓[m Compiled / in 36ms
+ GET / [32m200 [min 164ms
+ GET / [32m200 [min 156ms
+ [32m[1m✓[m Compiled / in 32ms
+ GET / [32m200 [min 152ms
+ GET / [32m200 [min 146ms
+ [32m[1m✓[m Compiled in 29ms
+ [32m[1m✓[m Compiled / in 24ms
+ GET / [32m200 [min 100ms
+ GET / [32m200 [min 99ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 159ms
+ GET / [32m200 [min 155ms
+ [32m[1m✓[m Compiled / in 33ms
+ GET / [32m200 [min 163ms
+ GET / [32m200 [min 158ms
+ [32m[1m✓[m Compiled / in 29ms
+ GET / [32m200 [min 167ms
+ GET / [32m200 [min 161ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 164ms
+ GET / [32m200 [min 164ms
+ [32m[1m✓[m Compiled / in 28ms
+ GET / [32m200 [min 167ms
+ GET / [32m200 [min 166ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 173ms
+ GET / [32m200 [min 167ms
+ [32m[1m✓[m Compiled / in 30ms
+ [31m[1m⨯[m ReferenceError: KeycloakTag is not defined
+    at Home (app\page.tsx:107:18)
+  [90m105 |[17X[33m[17C<NextTag />[K[m
+  [90m106 |[17X[33m[17C<ReactQueryTag />[K[m
+[31m[1m>[90m[22m 107 |[17X[33m[17C<KeycloakTag />[K[m
+      [90m|[18X[31m[1m[18C^[m[K
+  [90m108 |[17X[33m[17C<D3Tag />[K[m
+  [90m109 |[17X[33m[17C<TldrawTag />[K[m
+  [90m110 |[11X[m[11C{[K
+  digest: [32m'1757213588'[K[m
+}
+ [31m[1m⨯[m ReferenceError: KeycloakTag is not defined
+    at Home (app\page.tsx:107:18)
+  [90m105 |[17X[33m[17C<NextTag />[K[m
+  [90m106 |[17X[33m[17C<ReactQueryTag />[K[m
+[31m[1m>[90m[22m 107 |[17X[33m[17C<KeycloakTag />[K[m
+      [90m|[18X[31m[1m[18C^[m[K
+  [90m108 |[17X[33m[17C<D3Tag />[K[m
+  [90m109 |[17X[33m[17C<TldrawTag />[K[m
+  [90m110 |[11X[m[11C{[K
+  digest: [32m'1757213588'[K[m
+}
+ GET / [32m200 [min 154ms[K
+ GET / [32m200 [min 149ms[K
+ [32m[1m✓[m Compiled / in 25ms
+ [31m[1m⨯[m ReferenceError: KeycloakTag is not defined
+    at Home (app\page.tsx:107:18)
+  [90m105 |[17X[33m[17C<NextTag />[K[m
+  [90m106 |[17X[33m[17C<ReactQueryTag />[K[m
+[31m[1m>[90m[22m 107 |[17X[33m[17C<KeycloakTag />[K[m
+      [90m|[18X[31m[1m[18C^[m[K
+  [90m108 |[K[m
+  [90m109 |[17X[33m[17C<TldrawTag />[K[m
+  [90m110 |[11X[m[11C{[K
+  digest: [32m'1757213588'[K[m
+}
+ GET / [31m500 [min 217ms
+ [31m[1m⨯[m ReferenceError: KeycloakTag is not defined
+    at Home (app\page.tsx:107:18)
+  [90m105 |[17X[33m[17C<NextTag />[K[m
+  [90m106 |[17X[33m[17C<ReactQueryTag />[K[m
+[31m[1m>[90m[22m 107 |[17X[33m[17C<KeycloakTag />[K[m
+      [90m|[18X[31m[1m[18C^[m[K
+  [90m108 |[K[m
+  [90m109 |[17X[33m[17C<TldrawTag />[K[m
+  [90m110 |[11X[m[11C{[K
+  digest: [32m'1757213588'[K[m
+}
+ GET / [31m500 [min 258ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 278ms
+ GET /favicon.ico [32m200 [min 269ms
+ [32m[1m✓[m Compiled / in 27ms
+ [32m[1m✓[m Compiled in 2ms
+ GET / [32m200 [min 578ms
+ GET / [32m200 [min 605ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 301ms
+ [32m[1m✓[m Compiled in 39ms
+ [32m[1m✓[m Compiled / in 57ms
+ GET / [32m200 [min 270ms
+ GET / [32m200 [min 272ms
+ [32m[1m✓[m Compiled in 42ms
+ [32m[1m✓[m Compiled / in 38ms
+ [31m[1m⨯[m ReferenceError: Tldraw is not defined
+    at Home (app\page.tsx:115:21)
+  [90m113 |[13X[m[13C}[K
+  [90m114 |[13X[m[13Curl[33m=[32m"https://beink-dream.com"[K[m
+[31m[1m>[90m[22m 115 |[13X[m[13Cimage[33m=[m{[33m<Tldraw />[m}[K
+      [90m|[21X[31m[1m[21C^[m[K
+  [90m116 |[13X[m[13Ctitle[33m=[m{[K
+  [90m117 |[15X[33m[15C<h1 [mclassName[33m=[32m"font-londrina-sketch font-bold text-7xl bg-gradient-to-r from-violet-500 to-green-600 bg-clip-text text-transparent w-fit"[33m>[K[m
+  [90m118 |[17X[33m[17CBeink Dream [m{[K
+  digest: [32m'3475741434'[K[m
+}
+ [31m[1m⨯[m ReferenceError: Tldraw is not defined
+    at Home (app\page.tsx:115:21)
+  [90m113 |[13X[m[13C}[K
+  [90m114 |[13X[m[13Curl[33m=[32m"https://beink-dream.com"[K[m
+[31m[1m>[90m[22m 115 |[13X[m[13Cimage[33m=[m{[33m<Tldraw />[m}[K
+      [90m|[21X[31m[1m[21C^[m[K
+  [90m116 |[13X[m[13Ctitle[33m=[m{[K
+  [90m117 |[15X[33m[15C<h1 [mclassName[33m=[32m"font-londrina-sketch font-bold text-7xl bg-gradient-to-r from-violet-500 to-green-600 bg-clip-text text-transparent w-fit"[33m>[K[m
+  [90m118 |[17X[33m[17CBeink Dream [m{[K
+  digest: [32m'3475741434'[K[m
+}
+ GET / [32m200 [min 181ms[K
+ GET / [32m200 [min 180ms[K
+ [32m[1m✓[m Compiled / in 79ms
+ [33m[1m⚠[m Fast Refresh had to perform a full reload due to a runtime error.
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 368ms
+ GET / [31m500 [min 327ms
+ GET /favicon.ico [32m200 [min 269ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 83ms
+ GET /favicon.ico [32m200 [min 268ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 80ms
+ GET /favicon.ico [32m200 [min 265ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 75ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 89ms
+ GET /favicon.ico [32m200 [min 161ms[K
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 91ms
+ GET /favicon.ico [32m200 [min 159ms[K
+ GET /favicon.ico [32m200 [min 262ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 89ms
+ GET /favicon.ico [32m200 [min 265ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:852:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 |[K[m
+  [90m27 | [36mconst [mdoto [33m= Doto[m({[K
+  [90m28 |   [mvariable[33m: [32m"--font-doto"[33m, [m{[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 97ms
+ GET /favicon.ico [32m200 [min 259ms
+ [32m[1m✓[m Compiled in 595ms
+ [32m[1m✓[m Compiled / in 447ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:853:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 | [36mimport [32m"tldraw/tldraw.css"[33m;[K[m
+  [90m27 |[K[m
+  [90m28 | [36mconst [mdoto [33m= Doto[m({ {[K
+  page: [32m'/'[K[m
+}
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:853:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 | [36mimport [32m"tldraw/tldraw.css"[33m;[K[m
+  [90m27 |[K[m
+  [90m28 | [36mconst [mdoto [33m= Doto[m({ {[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 647ms
+ GET / [31m500 [min 680ms
+[97m[41m[1m[tldraw][m [31m[1mYou have multiple instances of some tldraw libraries active. This can lead to bugs and unexpected behavior. [m
+
+This usually means that your bundler is misconfigured, and is importing the same library multiple times - usually once as an ES Module, and once as a CommonJS module.
+
+The following libraries have been imported multiple times:
+  • ❌ [1m@tldraw/utils[22m v4.0.3:[K
+      1. ES Modules
+      2. ES Modules
+  • ❌ [1m@tldraw/state[22m v4.0.3:[K
+      1. ES Modules
+      2. ES Modules
+  • ❌ [1m@tldraw/state-react[22m v4.0.3:[K
+      1. ES Modules
+      2. ES Modules
+  • ❌ [1m@tldraw/store[22m v4.0.3:[K
+      1. ES Modules
+      2. ES Modules
+  • ❌ [1m@tldraw/validate[22m v4.0.3:[K
+      1. ES Modules
+      2. ES Modules
+  • ❌ [1m@tldraw/tlschema[22m v4.0.3:[K
+      1. ES Modules
+      2. ES Modules
+
+You should configure your bundler to only import one version of each library.
+ GET /favicon.ico [32m200 [min 272ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:25:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:853:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m23 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m24 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 25 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m26 | [36mimport [32m"tldraw/tldraw.css"[33m;[K[m
+  [90m27 |[K[m
+  [90m28 | [36mconst [mdoto [33m= Doto[m({ {[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 83ms
+ GET /favicon.ico [32m200 [min 277ms
+ [32m[1m✓[m Compiled / in 40ms
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:27:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:853:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m25 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m26 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 27 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m28 | [36mimport [32m"tldraw/tldraw.css"[33m;[K[m
+  [90m29 |[K[m
+  [90m30 | [36mconst [mdoto [33m= Doto[m({ {[K
+  page: [32m'/'[K[m
+}
+ [31m[1m⨯[m TypeError: (0 , __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$15$2e$5$2e$4_react$2d$dom$40$19$2e$1$2e$0_react$40$19$2e$1$2e$0_$5f$react$40$19$2e$1$2e$0$2f$node_modules$2f$next$2f$dis
+[24;221Hst$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__.createContext) is not a function
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\1f144_tldraw_dist-esm_index_mjs_97dc6ed5._.js:6:341[90m)[K[m
+    at __TURBOPACK__module__evaluation__ (app\page.tsx:27:1)
+    at __TURBOPACK__module__evaluation__ [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\chunks\ssr\[root-of-the-server]__97cba418._.js:853:47[90m)[K[m
+    at Object.<anonymous> [90m(C:\CODE\portfoliocode\apps\web\[m.next\server\app\page.js:45:3[90m)[K[m
+  [90m25 | [m} [36mfrom [32m"./components/tags/TechnologyTag"[33m;[K[m
+  [90m26 | [36mimport [33mCollectifTitle [36mfrom [32m"./components/CollectifTitle"[33m;[K[m
+[31m[1m>[90m[22m 27 | [36mimport [m{ [33mTldraw [m} [36mfrom [32m"tldraw"[33m;[K[m
+     [90m| [31m[1m^[m[K
+  [90m28 | [36mimport [32m"tldraw/tldraw.css"[33m;[K[m
+  [90m29 |[K[m
+  [90m30 | [36mconst [mdoto [33m= Doto[m({ {[K
+  page: [32m'/'[K[m
+}
+ GET / [31m500 [min 272ms
+ GET / [31m500 [min 273ms
+ GET /favicon.ico [32m200 [min 296ms
+ [32m[1m✓[m Compiled in 1421ms
+ [32m[1m✓[m Compiled / in 163ms
+ GET / [32m200 [min 969ms
+ GET / [32m200 [min 997ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 256ms
+ GET / [32m200 [min 109ms
+ GET /favicon.ico?favicon.0b3bf435.ico [32m200 [min 282ms
+ [32m[1m✓[m Compiled in 62ms
+ [32m[1m✓[m Compiled in 48ms
+ [32m[1m✓[m Compiled in 58ms
+ [32m[1m✓[m Compiled in 41ms
+ [32m[1m✓[m Compiled in 59ms
+ [32m[1m✓[m Compiled in 40ms
+ [32m[1m✓[m Compiled in 49ms
+ [32m[1m✓[m Compiled / in 52ms
+ GET / [32m200 [min 221ms
+ GET / [32m200 [min 220ms
+ [32m[1m✓[m Compiled in 44ms
+ [32m[1m✓[m Compiled / in 40ms
+ GET / [32m200 [min 162ms
+ GET / [32m200 [min 152ms
+ [32m[1m✓[m Compiled in 41ms
+ [32m[1m✓[m Compiled in 40ms
+ [32m[1m✓[m Compiled / in 34ms
+ GET / [32m200 [min 155ms
+ GET / [32m200 [min 155ms
+ [32m[1m✓[m Compiled in 45ms

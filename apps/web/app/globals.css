@@ -1,14 +1,41 @@
 @import "tailwindcss";
 
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
 
-  color: white
+  color: white;
 }
 
 @theme inline {
-  --font-doto: 'Doto', sans-serif;
+  --font-doto: "Doto", sans-serif;
+  --font-MaisonNeue: "MaisonNeue-Black", sans-serif;
+  --font-rubik-mono-one: "Rubik Mono One", sans-serif;
+  --font-jakarta-sans: "Plus Jakarta Sans", sans-serif;
+  --font-londrina-sketch: "Pattaya", cursive;
 }
 
+.sebkah-text {
+  margin: 0;
+  /*  border: 1px red solid; */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: transparent;
+
+  background: repeating-linear-gradient(
+    125deg,
+    #e6646400,
+    #e6646400 calc(5px),
+    #ffffff calc(6px),
+    /*     #ffffff calc(7px), */ #e6646400 calc(8px)
+  );
+  background-clip: text;
+  /* animation: rotate linear 2s infinite; */
+}
+
+.title-line {
+  font-family: Rubik Mono One;
+
+  font-size: 400%;
+  line-height: 90%;
+}
