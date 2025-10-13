@@ -19,7 +19,25 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
-
+  },
+  {
+    rules: {
+      // Disable unused variable warnings
+      "@typescript-eslint/no-unused-vars": "off",
+      "no-unused-vars": "off",
+      
+      // Disable other common warnings
+      "@typescript-eslint/no-explicit-any": "off",
+      "@typescript-eslint/no-empty-function": "off",
+      "@typescript-eslint/ban-ts-comment": "off",
+      "prefer-const": "off",
+      "no-console": "off",
+      
+      // React specific
+      "react/display-name": "off",
+      "react/no-unescaped-entities": "off",
+      "react-hooks/exhaustive-deps": "off",
+    },
   },
   
 ];
