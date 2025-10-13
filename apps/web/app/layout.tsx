@@ -24,7 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`h-dvh  antialiased `}>{children}</body>
+      <body className={`h-dvh bg-[rgb(20,20,20)] antialiased`}>{children}</body>
     </html>
   );
 }

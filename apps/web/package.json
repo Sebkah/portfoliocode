@@ -9,11 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
+    "@fortawesome/fontawesome-svg-core": "^7.1.0",
+    "@fortawesome/free-solid-svg-icons": "^7.1.0",
+    "@fortawesome/react-fontawesome": "^3.1.0",
     "@icons-pack/react-simple-icons": "^13.8.0",
     "@react-three/drei": "^10.3.0",
     "@react-three/fiber": "^9.1.2",
     "@react-three/postprocessing": "^3.0.4",
     "@types/three": "^0.177.0",
+    "framer-motion": "^12.23.24",
     "next": "15.5.4",
     "postprocessing": "^6.37.4",
     "react": "19.1.0",

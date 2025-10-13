@@ -12,6 +12,7 @@ import {
   SiFramer,
   SiD3,
   SiTldraw,
+  SiI18next,
 } from "@icons-pack/react-simple-icons";
 import { ReactNode } from "react";
 
@@ -25,10 +26,20 @@ export const TechnologyTag = ({
   children: ReactNode;
 }) => {
   return (
-    <span className="flex gap-1 items-center px-2 py-2 border-2 tracking-tighter border-white/70 rounded-full text-sm">
+    <span className="flex items-center gap-1 rounded-full border-2 border-white/70 px-2 py-2 text-sm tracking-tighter">
       {tag}
       {children}
     </span>
+  );
+};
+
+export const I18nTag = () => {
+  return (
+    <TechnologyTag
+      tag={<SiI18next title="i18next" size={size} color="white" />}
+    >
+      i18next
+    </TechnologyTag>
   );
 };
 
