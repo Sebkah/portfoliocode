@@ -17,6 +17,7 @@ import {
   TypeScriptTag,
 } from "../components/tags/TechnologyTag";
 import { Tldraw } from "tldraw";
+import { TldrawDemo } from "../components/demos/tldraw/TldrawDemo";
 
 export interface Section {
   id: string;
@@ -29,6 +30,26 @@ export interface Section {
 }
 
 export const projects: Section[] = [
+  {
+    id: "beink-dream",
+    tags: (
+      <>
+        <NextTag />
+        <ReactQueryTag />
+        <KeycloakTag />
+        <TldrawTag />
+        <GitLabTag />
+        <TypeScriptTag />
+        <I18nTag />
+      </>
+    ),
+    image: <TldrawDemo />,
+    title: (
+      <h1 className="font-londrina-sketch w-fit bg-gradient-to-r from-violet-500 to-green-600 bg-clip-text text-7xl font-bold text-transparent">
+        Beink Dream
+      </h1>
+    ),
+  },
   {
     id: "sebkah-portfolio",
     url: "https://sebkah.com",
@@ -66,25 +87,5 @@ export const projects: Section[] = [
     ),
     image: <CollectifTitle />,
     githubUrl: "https://github.com/Sebkah/99degresfront2023",
-  },
-  {
-    id: "beink-dream",
-    tags: (
-      <>
-        <NextTag />
-        <ReactQueryTag />
-        <KeycloakTag />
-        <TldrawTag />
-        <GitLabTag />
-        <TypeScriptTag />
-        <I18nTag />
-      </>
-    ),
-    image: <Tldraw />,
-    title: (
-      <h1 className="font-londrina-sketch w-fit bg-gradient-to-r from-violet-500 to-green-600 bg-clip-text text-7xl font-bold text-transparent">
-        Beink Dream
-      </h1>
-    ),
   },
 ];

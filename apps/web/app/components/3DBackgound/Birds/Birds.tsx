@@ -1,7 +1,7 @@
 import vert from "./shaders/bird.vert";
 import frag from "./shaders/bird.frag";
 import { Trail, useGLTF } from "@react-three/drei"; // shaders.d.ts provides typings for .vert and .frag modules
-import { RefObject, useRef } from "react";
+import { RefObject, Suspense, useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 import {
   BufferGeometry,
@@ -86,16 +86,18 @@ export default function Birds({
   });
 
   return (
-    <group>
-      {Array.from({ length: BIRD_COUNT }, (_, index) => (
-        <Bird
-          geometry={(bird.birdie as any).geometry}
-          id={index}
-          key={index}
-          targetPosition={targetPosition}
-        />
-      ))}
-    </group>
+    <Suspense fallback={null}>
+      <group>
+        {Array.from({ length: BIRD_COUNT }, (_, index) => (
+          <Bird
+            geometry={(bird.birdie as any).geometry}
+            id={index}
+            key={index}
+            targetPosition={targetPosition}
+          />
+        ))}
+      </group>
+    </Suspense>
   );
 }
 
@@ -128,7 +130,7 @@ const Bird = ({ id, targetPosition, geometry }: BirdProps) => {
   };
 
   const randomGroundPosition = useRef(
-    new Vector3(Math.random() * 4 + 1, 0.05, Math.random() * 10 - 1)
+    new Vector3(Math.random() * 4 + 1, 0.05, Math.random() * 10 - 1),
   );
 
   let gotToGround = false;
@@ -163,14 +165,14 @@ const Bird = ({ id, targetPosition, geometry }: BirdProps) => {
             timeScaled,
             animationStartTime.current,
             position.current,
-            circularStrength
+            circularStrength,
           )
         : new Vector3(0, 0, 0);
 
     // 2. Calculate flocking force
     const flockForce = calculateFlockingForce(
       position.current,
-      FLOCKING_STRENGTH
+      FLOCKING_STRENGTH,
     );
 
     // 3. Calculate target force
@@ -179,14 +181,14 @@ const Bird = ({ id, targetPosition, geometry }: BirdProps) => {
         ? calculateTargetForce(
             targetPosition.current,
             birdRef.current,
-            TARGET_FORCE_STRENGTH
+            TARGET_FORCE_STRENGTH,
           )
         : new Vector3(0, 0, 0);
 
     // 4. Calculate height constraint force
     const heightForce = calculateHeightConstraintForce(
       position.current,
-      UPWARD_FORCE_STRENGTH
+      UPWARD_FORCE_STRENGTH,
     );
 
     const shouldBirdBeOnGround =
@@ -303,7 +305,7 @@ const getChunkCoordinates = (position: Vector3): [number, number, number] => {
 const getChunkKeyFromCoordinates = (
   x: number,
   y: number,
-  z: number
+  z: number,
 ): number => {
   // Hash function for 3D coordinates
   return (x * 73856093) ^ (y * 19349663) ^ (z * 83492791);
@@ -338,7 +340,7 @@ const getNeighboringChunks = (position: Vector3): Set<number> => {
  */
 export const calculateFlockingForce = (
   currentPosition: Vector3,
-  strength: number
+  strength: number,
 ): Vector3 => {
   const cohesion = new Vector3(0, 0, 0);
   const separation = new Vector3(0, 0, 0);
@@ -400,7 +402,7 @@ export const calculateFlockingForce = (
  */
 export const calculateCenteringForce = (
   currentPosition: Vector3,
-  strength: number
+  strength: number,
 ): Vector3 => {
   const center = new Vector3(0, 0, 0);
   const targetDirection = center.clone().sub(currentPosition);
@@ -420,13 +422,13 @@ export const calculateCircularMotionForce = (
   elapsedTime: number,
   timeDelta: number,
   currentPosition: Vector3,
-  strength: number
+  strength: number,
 ): Vector3 => {
   // Calculate the target position based on sine and cosine functions for circular motion
   const targetPosition = new Vector3(
     Math.sin(elapsedTime + timeDelta) * CIRCULAR_RADIUS + 3,
     Math.cos(elapsedTime + timeDelta),
-    Math.cos(elapsedTime + timeDelta) * CIRCULAR_RADIUS
+    Math.cos(elapsedTime + timeDelta) * CIRCULAR_RADIUS,
   );
 
   const targetDirection = targetPosition.clone().sub(currentPosition);
@@ -435,7 +437,7 @@ export const calculateCircularMotionForce = (
   // Apply oscillating strength based on sine wave
   const oscillatingStrength = Math.pow(
     Math.sin(elapsedTime + timeDelta / 1000),
-    2
+    2,
   );
   return targetDirection.multiplyScalar(strength * oscillatingStrength);
 };
@@ -446,7 +448,7 @@ export const calculateCircularMotionForce = (
 export const calculateTargetForce = (
   targetPosition: Vector3,
   birdGroup: Group,
-  strength: number
+  strength: number,
 ): Vector3 => {
   const worldPosition = birdGroup.getWorldPosition(new Vector3());
   const toTargetDirection = targetPosition.clone().sub(worldPosition);
@@ -458,7 +460,7 @@ export const calculateTargetForce = (
  */
 export const calculateHeightConstraintForce = (
   currentPosition: Vector3,
-  strength: number
+  strength: number,
 ): Vector3 => {
   const force = new Vector3(0, 0, 0);
   if (currentPosition.y < MIN_HEIGHT) {
@@ -474,6 +476,6 @@ export const createInitialPosition = (id: number): Vector3 => {
   return new Vector3(
     Math.random() * 3 + 1,
     id / 70 - 0.1,
-    Math.random() * 2 - 1
+    Math.random() * 2 - 1,
   );
 };

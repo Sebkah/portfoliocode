@@ -1,7 +1,7 @@
 "use client";
 
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { PerspectiveCamera } from "@react-three/drei";
+import { PerspectiveCamera, useProgress } from "@react-three/drei";
 import {
   NoToneMapping,
   PerspectiveCamera as ThreePerspectiveCamera,
@@ -19,7 +19,7 @@ import {
   Bloom,
 } from "@react-three/postprocessing";
 import { BlendFunction, DepthOfFieldEffect, KernelSize } from "postprocessing";
-import { useRef } from "react";
+import { Suspense, useEffect, useRef } from "react";
 
 import Boat from "./Boat";
 import Birds from "./Birds/Birds";
@@ -53,23 +53,23 @@ const DollyCamera = () => {
       format: RGBAFormat,
       generateMipmaps: false,
       depthBuffer: true,
-    })
+    }),
   );
 
   const cameraControls = new SimpleCameraControls(
-    camera as ThreePerspectiveCamera
+    camera as ThreePerspectiveCamera,
   );
 
   cameraControls.addWaypoint(
     "default",
     CAMERA_BASE_POSITION,
-    CAMERA_BASE_ROTATION
+    CAMERA_BASE_ROTATION,
   );
 
   cameraControls.addWaypoint(
     "cv",
     CAMERA_CV_POSITION,
-    [0.15, 0, 0] // Adjusted rotation for CV page
+    [0.15, 0, 0], // Adjusted rotation for CV page
   );
 
   scene.userData.renderTarget = renderTarget.current;
@@ -164,8 +164,10 @@ const Scene = ({
 }) => {
   return (
     <group rotation={[0, Math.PI / -2, 0]}>
-      <Boat />
-      <Birds targetPosition={targetPosition} />
+      <Suspense>
+        <Boat />
+        <Birds targetPosition={targetPosition} />
+      </Suspense>
     </group>
   );
 };
@@ -175,31 +177,29 @@ const Scene = ({
  */
 export default function ThreeBackground() {
   const targetPosition = useRef<Vector3>(null);
+  const { progress, total, loaded } = useProgress();
+  useEffect(() => {
+    console.log(`Loading progress: ${progress} / ${total}`);
+  }, [progress]);
 
   return (
-    <div className="w-full h-full">
-      <Canvas
-        className="w-full h-full"
-        gl={{
-          antialias: true,
-          alpha: true,
-          toneMapping: NoToneMapping,
-        }}
-      >
-        <Effects></Effects>
-        <Nav targetPosition={targetPosition} />
+    loaded >= total && (
+      <div className="h-full w-full">
+        <Canvas
+          className="h-full w-full"
+          gl={{
+            antialias: true,
+            alpha: true,
+            toneMapping: NoToneMapping,
+          }}
+        >
+          <Effects></Effects>
+          <Nav targetPosition={targetPosition} />
 
-        <RenderScreen />
-
-        <DollyCamera />
-        <Scene targetPosition={targetPosition} />
-      </Canvas>
-    </div>
+          <DollyCamera />
+          <Scene targetPosition={targetPosition} />
+        </Canvas>
+      </div>
+    )
   );
 }
-
-const RenderScreen = () => {
-  // This makes the component rerender when the size changes that's bad
-
-  return null;
-};
